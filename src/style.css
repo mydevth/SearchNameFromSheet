@@ -1,0 +1,99 @@
+@import "https://fonts.googleapis.com/css?family=Kanit|Prompt";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Prompt", sans-serif;
+  text-align: center;
+  padding: 0px;
+  font-size: 2vw;
+  color: rgb(60, 60, 251);
+}
+
+.search-input {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 1em 1em;
+  width: 75%;
+  font-size: 12px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Prompt", sans-serif;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.message {
+  text-align: center;
+  color: green;
+}
+
+.container {
+  width: 96%;
+  /* max-width: 1140px; */
+}
+
+.search-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.row {
+  padding-left: 10px;
+}
+
+.row1 {
+  text-align: center;
+}
+
+.showTable {
+  width: 65%;
+  margin: 0 auto;
+  font-family: "Prompt", sans-serif;
+  font-weight: 1;
+  font-variant-ligatures: normal;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  border: 1px solid;
+  background-color: rgb(241, 240, 240);
+}
+
+th {
+  border: 1px solid;
+  background-color: rgb(76, 172, 241);
+}
+
+.footer {
+  margin-top: 20px;
+}
+.footer p {
+  color: rgb(127, 126, 126);
+  font-size: 1vw;
+  text-align: center;
+}
