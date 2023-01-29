@@ -20,7 +20,6 @@ function App() {
   }, []);
 
   const searchName = (countries) => {
-    <p>ddd</p>;
     return countries.filter((item) => {
       return dataFilter.some((filter) => {
         return item[filter].indexOf(word) > -1;
